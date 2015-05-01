@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style type="text/css"></style>
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+<script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  $(function () {
+  $('[data-toggle="popover"]').popover()
+  })
+</script>
+
+  <body>
+    <div class="container">
+      <div class="row spacer">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://forums.udacity.com/upfiles/udacity-logo.jpg" alt="Udacity logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin">Jane Doette</h1>
+          <h4>Front-end Ninja</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive center-block" src="http://placehold.it/1140x350" alt="Main image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="http://placehold.it/555x300" alt="Appify image" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">Appify</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="http://placehold.it/555x300" alt="Sunflower image" data-toggle="modal" data-target="#project2"> 
+          <h3 class="text-uppercase">Sunflower</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="http://placehold.it/555x300" alt="Bokeh image" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Bokeh</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>        
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">APPIFY</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="http://placehold.it/555x300">
+            <p>Satisfied conveying an dependent contented he gentleman agreeable do be. Warrant private blushes removed an in equally totally if. Delivered dejection necessary objection do mr prevailed. Mr feeling do chiefly cordial in do. Water timed folly right aware if oh truth.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" title="Gotcha" data-placement="left" data-content="You think this will close the window, but it won't!">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
